@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apoio Contabilidade</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            display: flex;
+            background-color: rgb(226, 226, 226);
+        }
+        header > picture > a > img{
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.295);
+            margin: 10px 0px;
+            border-radius: 30px;
+            height: 170px;
+        }
+        header > picture > a > img:hover{
+            box-shadow: 7px 4px 9px 1px rgba(0, 0, 0, 0.295);
+            height: 175px;
+        }
+        nav{
+            margin: auto;
+        }
+        nav > ul{
+            list-style: none;
+            margin: 10px;
+        }
+        nav > ul > li > a{
+            display: flex;
+            background-color: antiquewhite;
+            padding: 5px 10px;
+            width: 200px;
+            text-align: center;
+            text-decoration: none;
+            color: red;
+            margin: 10px;
+            border: 2px solid rgb(102, 1, 1);
+            border-radius: 3px;
+            box-shadow: 7px 3px 5px 2px rgba(0, 0, 0, 0.418);
+        }
+        nav > ul > li > a:hover{
+            text-decoration: underline;
+            color: green;
+            background-color: rgb(137, 250, 162);
+            border: 2px solid rgb(8, 65, 0);
+            border-radius: 3px;
+            box-shadow: 3px 1px 5px 0,5px rgba(0, 0, 0, 0.418);
+        }
+        main{
+            text-align: center;
+            margin: 10px;
+        }
+        h1{
+            background-color: rgb(199, 199, 199);
+            padding: 5px;
+            border-radius: 3px;
+            box-shadow: 5px 1px 7px 2px rgba(0, 0, 0, 0.295);
+        }
+        section#nos{
+            background-color: rgba(167, 177, 165);
+            margin-bottom: 10px;
+            padding-bottom: 20px;
+
+        }
+        .video{
+            position: relative;
+            display: flex;
+            margin: auto;
+        }
+        @media (max-width: 750px) {
+            .video{
+            width: 700px;
+            height: 350px;
+            }
+        }
+        @media (max-width: 1051px) {
+            .video{
+                width: 1000px;
+                height: 500px;
+            }
+        }
+        section#simples{
+            background-color: rgb(167, 177, 165);
+            text-align: left;
+            margin: 10px;
+            padding-bottom: 20px;
+        }
+        section#simples > iframe
+            margin-left: 100px;
+        footer{
+            margin: 0px;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <picture>
+            <a href="apoio.html">
+                <img src="img/LogoApoio-sf.png" alt="Logo-ApoioContabilidade">
+        </a>
+        </picture>
+        <nav>
+            <ul>
+                <li><a href="quemsomos.html">Quem somos?</a></li>
+                <li><a href="parceiros.html">Nossos Parceiros</a></li>
+                <li><a href="contatos.html">Contatos e setores</a></li>
+                <li><a href="blog.html">Artigos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="nos">
+            <h1>Nós somos a Apoio Contabilidade!</h1>
+                <div class="video">
+                    <iframe width="1120" height="630" src="https://www.youtube.com/embed/cU-ixMUpRS8?si=2vMjswfvuSKytHJd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+        </section>
+        </section>
+        <section id="simples">
+            <h1>Acesse o Simples Nacional</h1>
+            <iframe width="560" height="660" src="https://www8.receita.fazenda.gov.br/SimplesNacional/" frameborder="0">ACESSE O SIMPLES NACIONAL</iframe>
+        </section>    
+    </main>
+    <footer>
+        <p>Desenvolvido por Ícaro Velasco</p>
+    </footer>
+    
+</body>
+</html>
