@@ -57,7 +57,7 @@ nav > a:hover{
     transition-duration: .7s;
 }
 main{
-    min-width: 300px;
+    min-width: 220px;
     max-width: 1000px;
     background-color: white;
     padding: 20px;
