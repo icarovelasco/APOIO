@@ -162,10 +162,14 @@ main > article > div > section{
     box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.24);
 }
 
-ul{
+ul.app1{
     text-align: center;
     width: 100%;
     list-style: none;
+}
+
+ul.app1 > li{
+    margin: 15px;
 }
 
 footer{
