@@ -81,17 +81,42 @@ main > article > h1{
     box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.24);
 }
 
-main > article > p{
+h2{
+    text-align: center;
+    margin: 25px;
+    border-bottom: 5px solid var(--cor5);
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.11);
+}
+
+h3{
+    color:  var(--cor5);
+    margin-left: 55px;
+    margin-bottom: 20px;
+    text-shadow: 5px 3px rgba(0, 0, 0, 0.075);
+}
+
+p{
     text-align: justify;
     margin: 0px 20px 20px 20px;
 }
 
-main > article > div{
+main > article > div#q1.bloco{
+    background-image: url(../img/wallpaper005.jpg);
+    height: 100px;
+    margin: 20px 0px 0px 0px ;
+    border-radius: 7px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main > article > div.apoioapp{
     display: flex;
     width: fit-content;
     margin: auto;
 }
-main > article > div > a{
+
+main > article > div.apoioapp > a{
     background-color: var(--cor2);
     color: var(--cor5);
     text-decoration: none;
@@ -102,21 +127,16 @@ main > article > div > a{
     text-align: center;
     box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.24);
 }
-main > article > div > a:hover{
+main > article > div.apoioapp > a:hover{
     background-color: var(--cor4);
     text-decoration: underline;
     color: var(--cor1);
     border: 3px solid var(--cor5);
     transition-duration: .7s;
 }
+
 main > article > iframe{
     width: 100%
-}
-h2{
-    text-align: center;
-    margin: 25px;
-    border-bottom: 5px solid var(--cor5);
-    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.24);
 }
 
 main > article > picture > img{
@@ -124,19 +144,28 @@ main > article > picture > img{
     border-radius: 3px;
     box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.24);
 }
-main > article > section{
+
+main > article > div{
     display: flex;
-    text-align: justify;
 }
-main > article > section > ul{
+
+main > article > div > section{
     background-color: var(--cor2);
+    display: block;
+    width: 50%;
     text-align: center;
+    list-style: none;
+    margin: 5px 3px 10px 3px;
     padding: 20px;
     border: 2px solid var(--cor5);
     border-radius: 12px;
-    width: 50%;
-    list-style: none;
     box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.24);
+}
+
+ul{
+    text-align: center;
+    width: 100%;
+    list-style: none;
 }
 
 footer{
